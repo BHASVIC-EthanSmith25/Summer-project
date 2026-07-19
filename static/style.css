@@ -1,0 +1,19 @@
+#reactionTime{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    margin-top: 20px;
+}
+
+#container{
+    position: center;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid;
+    border-color: black;
+    padding: 20px;
+}
