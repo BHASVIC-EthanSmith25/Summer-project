@@ -7,6 +7,7 @@ const result = getElementById("result");
 function startGame(){
     result.innerHTML = "";
     box.style.backgroundColor = "red";
+    box.innerHTML = "Wait...";
 
     let delay = Math.random()*4000 + 1000;
 
