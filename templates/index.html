@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reactioon Time Tester</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1 id="reactionTime">Reaction Time</h1>
-    <div id="container">
-        <p = myP id="myP">Click the box when the background turns green</p>
-    </div>
+    <h1>Reaction Time</h1>
+
+    <p>Click the box when it turns green.</p>
+
+    <div id="box">Wait...</div>
+
+    <p id="result"> </p>
+
+    <button onclick ="startGame()">Start Game</button>
 
 
-    
-    <script src="script.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>

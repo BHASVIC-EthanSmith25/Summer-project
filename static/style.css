@@ -1,19 +1,33 @@
-#reactionTime{
+body{
     text-align: center;
-    font-size: 30px;
-    color: blue;
-    margin-top: 20px;
+    margin-top: 50px;
+    background-color: #f2f2f2;
 }
 
-#container{
-    position: center;
-    width: 50%;
-    height: 100vh;
+h1{
+    color: blue;
+}
+
+#box{
+    width: 300px;
+    height: 300px;
+    background: red;
     display: flex;
-    flex-direction:column;
     justify-content: center;
     align-items: center;
-    border: 5px solid;
-    border-color: black;
-    padding: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 40px auto;
+    border: 1px solid #ccc;
+    user-select: none;
+}
+
+button{
+    padding: 12px 30px;
+    font-size: 16px;
+}
+
+#result{
+    margin-top: 20px;
+    font-size: 18px;
 }
